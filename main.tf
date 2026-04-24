@@ -113,7 +113,7 @@ custom_data = base64encode(templatefile("${path.module}/setup.sh", {
 
 #azurerm_mysql_flexible_server
 resource "azurerm_mysql_flexible_server" "mysql" {
-  name                   = "haritha1234567"
+  name                   = "harithabhai1234567"
   resource_group_name    = azurerm_resource_group.rg.name
   location               = "East Asia"
 
